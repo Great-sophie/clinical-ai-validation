@@ -1,0 +1,70 @@
+{
+  "cohort": "external",
+  "metrics": {
+    "auroc": 0.9096774193548387,
+    "auprc": 0.8368054818001495,
+    "brier": 0.15635774970625,
+    "prevalence": 0.29545454545454547,
+    "n": 220,
+    "n_positive": 65,
+    "n_negative": 155,
+    "threshold": 0.5,
+    "sensitivity": 0.9076923076923077,
+    "specificity": 0.7677419354838709,
+    "ppv": 0.6210526315789474,
+    "npv": 0.952,
+    "precision": 0.6210526315789474,
+    "recall": 0.9076923076923077,
+    "f1": 0.7375,
+    "tp": 59,
+    "tn": 119,
+    "fp": 36,
+    "fn": 6,
+    "calibration_intercept": -1.4979459555383738,
+    "calibration_slope": 1.9934533368890681
+  },
+  "bootstrap_95_ci": {
+    "auroc": {
+      "lower": 0.8595665611583436,
+      "upper": 0.9498266430539157
+    },
+    "auprc": {
+      "lower": 0.749014437071846,
+      "upper": 0.9065683193671595
+    },
+    "brier": {
+      "lower": 0.13576322582819456,
+      "upper": 0.17789872599366052
+    },
+    "sensitivity": {
+      "lower": 0.8332692307692308,
+      "upper": 0.9701602282704127
+    },
+    "specificity": {
+      "lower": 0.6999836601307189,
+      "upper": 0.8300684424713282
+    },
+    "ppv": {
+      "lower": 0.523242600422833,
+      "upper": 0.7142857142857143
+    },
+    "npv": {
+      "lower": 0.9112692585459797,
+      "upper": 0.9841301087364079
+    },
+    "f1": {
+      "lower": 0.6543151642208246,
+      "upper": 0.8072345281748111
+    },
+    "calibration_intercept": {
+      "lower": -2.1310470960659775,
+      "upper": -1.0443217362876263
+    },
+    "calibration_slope": {
+      "lower": 1.5053011136316274,
+      "upper": 2.7922009215217396
+    },
+    "valid_bootstrap_iterations": 1000,
+    "requested_bootstrap_iterations": 1000
+  }
+}
