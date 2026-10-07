@@ -177,10 +177,6 @@ DCA supports **potential clinical utility** under specified decision thresholds;
 5. High AUROC does not imply good calibration.
 6. DCA does not prove clinical utility; it evaluates decision-theoretic net benefit under specified assumptions.
 
-## Interview summary
-
-> I built an end-to-end clinical AI validation workflow that evaluates AUROC/AUPRC, bootstrap confidence intervals, threshold-based clinical metrics, Brier score and calibration, external generalization, logistic recalibration, and decision-curve net benefit with paired bootstrap uncertainty.
-
 ## Outputs
 
 See `outputs/final_results.md` for the complete result tables and `outputs/final_results.csv` for a machine-readable summary.
